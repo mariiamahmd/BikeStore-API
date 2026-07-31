@@ -6,7 +6,7 @@ The project uses a **SQL Server** relational database designed from an Entity Re
 
 ---
 
-# 📖 Overview
+# Overview
 
 The application serves as the backend for a bike store management system, exposing RESTful endpoints that allow clients to perform operations on the store's data.
 
@@ -21,7 +21,7 @@ The project was developed through the following stages:
 
 ---
 
-# ✨ Features
+# Features
 
 - RESTful API architecture.
 - CRUD operations (GET, POST, PUT, DELETE) across multiple entities.
@@ -40,7 +40,7 @@ The project was developed through the following stages:
 ---
 
 
-# 🛠️ Technologies
+# Technologies
 
 ### Backend
 
@@ -72,7 +72,7 @@ The project was developed through the following stages:
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 
 The database was designed from an Entity Relationship Diagram (ERD) before being implemented in SQL Server.
 
@@ -84,7 +84,7 @@ The ERD defines the relationships between customers, orders, order items, produc
 
 ---
 
-# 🗂️ Entities
+# Entities
 
 The API includes endpoints for managing:
 
@@ -138,7 +138,7 @@ After executing the PUT request, the changes are successfully reflected in the d
 
 
 
-# ⚙️ Installation
+# Installation
 
 ## Prerequisites
 
@@ -185,11 +185,5 @@ The API will start and display the local URL in the terminal.
 
 Open the Scalar interface using the URL provided when the application starts (for example, `https://localhost:7177/scalar`) and test the available endpoints.
 
----
 
-# 🚀 Future Improvements
-
-- Implement JWT Authentication and Authorization.
-- Apply the Repository and Service Layer patterns.
-- Add unit and integration tests.
 
